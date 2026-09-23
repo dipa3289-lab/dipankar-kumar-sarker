@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dipankar Kumar Sarker — Manager, Distribution | Distribution, Supply Chain & Logistics Professional">
+<title>Dipankar Kumar Sarker | Distribution & Supply Chain Professional</title>
+<style>
+:root{--navy:#0b1736;--blue:#2563eb;--sky:#eff6ff;--text:#172033;--muted:#64748b;--line:#e5e7eb;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);background:#f8fafc;line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(11,23,54,.96);backdrop-filter:blur(10px);color:white}
+.navin{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.05rem;font-weight:800;letter-spacing:.4px}.logo span{color:#60a5fa}
+.navlinks{display:flex;gap:24px;font-size:.9rem;color:#dbeafe}.navlinks a:hover{color:white}
+.hero{background:linear-gradient(135deg,#0b1736 0%,#102d63 65%,#1d4ed8 100%);color:white;padding:90px 0 82px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(96,165,250,.10);right:-130px;top:-120px}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:55px;align-items:center}
+.eyebrow{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:7px 13px;border-radius:999px;font-size:.78rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px}
+h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1.05;letter-spacing:-2px;margin-bottom:18px}
+.hero h2{font-size:1.25rem;font-weight:500;color:#bfdbfe;margin-bottom:20px}
+.hero p{max-width:700px;color:#dbeafe;font-size:1.02rem}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{padding:12px 19px;border-radius:10px;font-weight:700;font-size:.9rem;display:inline-block}
+.btn-primary{background:white;color:var(--navy)}.btn-outline{border:1px solid rgba(255,255,255,.35);color:white}
+.profile-card{background:white;color:var(--text);padding:28px;border-radius:20px;box-shadow:0 20px 50px rgba(0,0,0,.2)}
+.profile-initial{width:82px;height:82px;border-radius:18px;background:var(--sky);color:var(--blue);display:grid;place-items:center;font-size:2rem;font-weight:900;margin-bottom:18px}
+.profile-card h3{font-size:1.35rem}.profile-card p{color:var(--muted);font-size:.9rem;margin-top:5px}
+.contact-mini{margin-top:20px;padding-top:18px;border-top:1px solid var(--line);font-size:.86rem;color:#334155}
+section{padding:78px 0}.section-head{margin-bottom:36px}.section-head span{color:var(--blue);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:1.5px}.section-head h2{font-size:2.15rem;line-height:1.15;margin-top:8px}.section-head p{color:var(--muted);max-width:700px;margin-top:10px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.card{background:white;border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:0 8px 25px rgba(15,23,42,.04)}
+.focus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.focus{padding:22px;background:white;border:1px solid var(--line);border-radius:14px}.focus strong{display:block;margin-bottom:6px}.focus p{font-size:.88rem;color:var(--muted)}
+.timeline{position:relative;border-left:2px solid #bfdbfe;margin-left:8px;padding-left:28px}
+.role{position:relative;margin-bottom:34px}.role:before{content:"";position:absolute;left:-37px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--blue);border:3px solid #dbeafe}
+.role h3{font-size:1.15rem}.role .date{color:var(--blue);font-size:.82rem;font-weight:800}.role .company{font-weight:700;margin:3px 0;color:#334155}.role p{color:var(--muted);font-size:.92rem}
+.achievements{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.achievement{background:var(--navy);color:white;padding:28px;border-radius:16px}.achievement .num{font-size:2.5rem;font-weight:900;color:#93c5fd;line-height:1}.achievement p{margin-top:10px;color:#dbeafe;font-size:.9rem}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.tag{padding:9px 13px;background:var(--sky);color:#1e40af;border-radius:999px;font-size:.82rem;font-weight:700}
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.edu{background:white;border:1px solid var(--line);border-radius:14px;padding:21px}.edu h3{font-size:1rem}.edu p{font-size:.86rem;color:var(--muted)}
+.contact{background:var(--navy);color:white}.contact .section-head h2{color:white}.contact .section-head p{color:#bfdbfe}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-item{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);padding:20px;border-radius:14px}.contact-item small{display:block;color:#93c5fd;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.contact-item a:hover{color:#93c5fd}
+footer{background:#071027;color:#94a3b8;text-align:center;padding:25px;font-size:.8rem}
+@media(max-width:800px){.navlinks{display:none}.hero-grid,.about-grid,.contact-grid,.edu-grid{grid-template-columns:1fr}.focus-grid,.achievements{grid-template-columns:1fr 1fr}.hero{padding-top:65px}}
+@media(max-width:520px){section{padding:58px 0}.focus-grid,.achievements{grid-template-columns:1fr}h1{font-size:2.7rem}.hero-grid{gap:35px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin"><a class="logo" href="#">DIPANKAR <span>SARKER</span></a>
+<div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">Distribution • Supply Chain • Logistics</div>
+<h1>Dipankar Kumar Sarker</h1>
+<h2>Manager | Distribution Expert</h2>
+<p>Experienced distribution professional with 13+ years of progressive experience in distribution operations, logistics coordination, inventory control, process optimization, team leadership and nationwide delivery management.</p>
+<div class="buttons"><a class="btn btn-primary" href="#contact">Contact Me</a><a class="btn btn-outline" href="#experience">View Experience</a></div>
+</div>
+<div class="profile-card">
+<div class="profile-initial">DKS</div>
+<h3>Distribution & Operations</h3>
+<p>Current role: Manager, Distribution</p>
+<div class="contact-mini">
+<div>📞 +8801831-940879</div>
+<div style="margin-top:6px">✉️ dipa3289@gmail.com</div>
+<div style="margin-top:6px">📍 Gazipur, Bangladesh</div>
+</div>
+</div>
+</div>
+</header>
+
+<section id="about"><div class="container">
+<div class="section-head"><span>Professional Profile</span><h2>Turning distribution challenges into efficient operations.</h2><p>A practical, results-focused profile built around distribution planning, logistics coordination, inventory control, reporting and operational improvement.</p></div>
+<div class="about-grid">
+<div class="card"><h3>Career Summary</h3><p style="margin-top:10px;color:#64748b">Currently serving as Manager in Distribution at PSP Industries Ltd., an SS manufacturing company. Previously progressed through multiple roles at National Polymer Industries PLC., from Executive to Deputy Manager.</p></div>
+<div class="card"><h3>Core Strengths</h3><p style="margin-top:10px;color:#64748b">Distribution management, supply chain optimization, logistics coordination, inventory control, transportation planning, warehouse operations, team supervision, KPI reporting, cost reduction, ERP-based reporting and vendor/3PL management.</p></div>
+</div>
+</div></section>
+
+<section style="background:#f1f5f9"><div class="container">
+<div class="section-head"><span>Areas of Expertise</span><h2>What I bring to an organization</h2></div>
+<div class="focus-grid">
+<div class="focus"><strong>Distribution Management</strong><p>Planning and coordinating efficient product movement and nationwide delivery.</p></div>
+<div class="focus"><strong>Supply Chain Optimization</strong><p>Process-focused approach to improving flow, service and operational efficiency.</p></div>
+<div class="focus"><strong>Inventory Control</strong><p>Movement analysis and follow-up for fast, slow and non-moving inventory.</p></div>
+<div class="focus"><strong>Logistics & Transport</strong><p>Vehicle monitoring, route optimization and transportation planning.</p></div>
+<div class="focus"><strong>Leadership</strong><p>Team supervision, coordination and cross-functional operational leadership.</p></div>
+<div class="focus"><strong>ERP & Reporting</strong><p>Oracle EBS-based inventory, stock movement and stock analysis reporting.</p></div>
+</div></div></section>
+
+<section id="experience"><div class="container">
+<div class="section-head"><span>Career Journey</span><h2>Professional Experience</h2></div>
+<div class="timeline">
+<div class="role"><div class="date">SEP 2025 — PRESENT</div><h3>Manager, Distribution</h3><div class="company">PSP Industries Ltd. — SS Manufacturing Company</div><p>Hatkaluganj, Chuadanga Sadar, Chuadanga.</p></div>
+<div class="role"><div class="date">JUN 2020 — AUG 2025</div><h3>Deputy Manager, Distribution</h3><div class="company">National Polymer Industries PLC. (NPOLY Group)</div><p>Squib Road, Tongi, Gazipur.</p></div>
+<div class="role"><div class="date">JUN 2015 — JUN 2020</div><h3>Senior Assistant Manager, Distribution</h3><div class="company">National Polymer Industries PLC. (NPOLY Group)</div></div>
+<div class="role"><div class="date">AUG 2014 — MAY 2015</div><h3>Senior Management Executive, Distribution</h3><div class="company">National Polymer Industries PLC. (NPOLY Group)</div></div>
+<div class="role"><div class="date">APR 2012 — JUL 2014</div><h3>Executive, Distribution</h3><div class="company">National Polymer Industries PLC. (NPOLY Group)</div></div>
+</div>
+</div></section>
+
+<section style="background:#f1f5f9"><div class="container">
+<div class="section-head"><span>Selected Results</span><h2>Documented achievements</h2></div>
+<div class="achievements">
+<div class="achievement"><div class="num">30%</div><p>Reduction in non-moving inventory through regular movement analysis and timely follow-up.</p></div>
+<div class="achievement"><div class="num">25%</div><p>Lower delivery costs through efficient vehicle monitoring and route optimization.</p></div>
+<div class="achievement"><div class="num">35%</div><p>Improvement in distribution efficiency through close coordination with production and logistics.</p></div>
+</div>
+</div></section>
+
+<section id="skills"><div class="container">
+<div class="section-head"><span>Capabilities</span><h2>Skills & Tools</h2></div>
+<div class="card"><div class="skills">
+<span class="tag">Distribution Management</span><span class="tag">Supply Chain Optimization</span><span class="tag">Logistics Coordination</span><span class="tag">Inventory Control</span><span class="tag">Transportation Planning</span><span class="tag">Warehouse Operations</span><span class="tag">Team Leadership</span><span class="tag">KPI Analysis & Reporting</span><span class="tag">Cost Reduction</span><span class="tag">Vendor & 3PL Management</span><span class="tag">Reverse Logistics</span><span class="tag">Oracle EBS</span><span class="tag">Microsoft Excel</span><span class="tag">Microsoft Word</span><span class="tag">PowerPoint</span><span class="tag">Negotiation</span><span class="tag">Problem-solving</span><span class="tag">Time Management</span>
+</div></div>
+</div></section>
+
+<section id="education" style="background:#f1f5f9"><div class="container">
+<div class="section-head"><span>Academic Background</span><h2>Education</h2></div>
+<div class="edu-grid">
+<div class="edu"><h3>Master of Business Administration (MBA)</h3><p>Bangladesh Open University • Major: Marketing • Passing Year: 2025 • Result: Appeared</p></div>
+<div class="edu"><h3>Bachelor of Social Science (BSS), Degree Pass</h3><p>National University • Second Class • Passing Year: 2012</p></div>
+<div class="edu"><h3>Higher Secondary Certificate (HSC)</h3><p>Rajshahi New Govt. Degree College • Science • Rajshahi Board • First Division • 2000</p></div>
+<div class="edu"><h3>Secondary School Certificate (SSC)</h3><p>Rajshahi Govt. Collegiate High School • Science • Rajshahi Board • First Division • 1998</p></div>
+</div>
+</div></section>
+
+<section id="contact" class="contact"><div class="container">
+<div class="section-head"><span>Let's Connect</span><h2>Open to professional opportunities.</h2><p>For recruitment, career opportunities or professional discussions, please get in touch.</p></div>
+<div class="contact-grid">
+<div class="contact-item"><small>Phone / WhatsApp</small><a href="tel:+8801831940879">+8801831-940879</a></div>
+<div class="contact-item"><small>Email</small><a href="mailto:dipa3289@gmail.com">dipa3289@gmail.com</a></div>
+<div class="contact-item"><small>Location</small><div>Holding #70, Ward #53, Hazrat Shah Jalal Road, Boro Dewra, Tongi, Gazipur, Bangladesh</div></div>
+<div class="contact-item"><small>Languages</small><div>Bangla — Proficient &nbsp; | &nbsp; English — Good</div></div>
+</div>
+</div></section>
+
+<footer>© 2026 Dipankar Kumar Sarker • Distribution & Supply Chain Professional</footer>
+</body></html>
